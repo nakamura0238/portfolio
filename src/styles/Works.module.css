@@ -1,0 +1,65 @@
+section.worksSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 40px 0;
+}
+
+div.workArea {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+div.workPadding {
+  width: 100%;
+  padding: 20px;
+}
+
+button.workItem {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  background-color: #ffffff;
+  overflow: hidden;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+}
+
+button.workItem:hover, button.workItem:focus {
+  background-color: #dddddd;
+}
+
+img.workImage {
+  width: 360px;
+  height: 240px;
+  object-fit: cover;
+}
+
+div.itemBox {
+  display: flex;
+  flex-direction: column;
+}
+
+p.itemTitle {}
+
+p.itemexp {}
+
+p.itemTech {}
+
+div.techBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+span.techItem {
+  display: inline-block;
+  margin: 5px;
+}
